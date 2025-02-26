@@ -1,0 +1,3 @@
+D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/stm32g431_sample_fw.dir
+D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/edit_cache.dir
+D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/rebuild_cache.dir
