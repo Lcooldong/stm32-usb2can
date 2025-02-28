@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"compare": "cpp",
+			"stm32g4xx_ll_spi.h": "c"
+		}
+	}
+}

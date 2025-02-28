@@ -59,7 +59,15 @@
 #define _USE_HW_I2C
 #define      HW_I2C_MAX_CH          1
 
+#define _USE_HW_BUTTON
+#define      HW_BUTTON_MAX_CH       4
 
+#define _USE_HW_SWTIMER
+#define      HW_SWTIMER_MAX_CH      1
 
+#define _USE_HW_SPI    
+#define      HW_SPI_MAX_CH          1   
+
+// #define _USE_HW_SPI_FLASH
 
 #endif /* SRC_HW_HW_DEF_H_ */

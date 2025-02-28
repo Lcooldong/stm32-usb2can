@@ -9,7 +9,6 @@
  #include "spi.h"
  #include "stm32g4xx_ll_spi.h"
  
- 
  #ifdef _USE_HW_SPI
  
  #define SPI_TX_DMA_MAX_LENGTH   0xFFFF
@@ -24,7 +23,8 @@
    bool is_error;
  
    void (*func_tx)(void);
- 
+
+   
    SPI_HandleTypeDef *h_spi;
    DMA_HandleTypeDef *h_dma_tx;
    DMA_HandleTypeDef *h_dma_rx;

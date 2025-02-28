@@ -3,324 +3,326 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SRC_FILES at CMakeLists.txt:39 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:39 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/*.cpp")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/main.cpp"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:39 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/ap/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/ap/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:39 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/ap/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/ap/*.cpp")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/ap/ap.cpp"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/ap/ap.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:39 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/*.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/bsp.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/rtos.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/bsp.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/rtos.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_EXCLUDE at CMakeLists.txt:62 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_1.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_1.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_1.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_1.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_EXCLUDE at CMakeLists.txt:62 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_2.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_2.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_2.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_2.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_EXCLUDE at CMakeLists.txt:62 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_3.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_3.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_3.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_3.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_EXCLUDE at CMakeLists.txt:62 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_5.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_5.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_5.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_5.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:39 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/device/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/device/*.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/device/stm32g4xx_hal_msp.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/device/stm32g4xx_it.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/device/syscalls.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/device/sysmem.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/device/system_stm32g4xx.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/device/stm32g4xx_hal_msp.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/device/stm32g4xx_it.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/device/syscalls.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/device/sysmem.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/device/system_stm32g4xx.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_EXCLUDE at CMakeLists.txt:62 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_EXCLUDE at CMakeLists.txt:62 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_RECURSE at CMakeLists.txt:50 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/ap/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/ap/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_RECURSE at CMakeLists.txt:50 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/ap/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/ap/*.cpp")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/ap/ap.cpp"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/ap/mode/can_mode.cpp"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/ap/mode/cli_mode.cpp"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/ap/ap.cpp"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/ap/mode/can_mode.cpp"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/ap/mode/cli_mode.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_RECURSE at CMakeLists.txt:50 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/*.s")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/*.s")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/startup/startup_stm32g431cbux.s"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/startup/startup_stm32g431cbux.s"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_RECURSE at CMakeLists.txt:50 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/*.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/croutine.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/event_groups.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/list.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_1.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_2.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_3.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_4.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_5.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/queue.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/stream_buffer.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/tasks.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/bsp/FreeRTOS/Source/timers.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/croutine.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/event_groups.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/list.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_1.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_2.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_3.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_4.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/portable/MemMang/heap_5.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/queue.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/stream_buffer.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/tasks.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/bsp/FreeRTOS/Source/timers.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_RECURSE at CMakeLists.txt:50 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/common/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/common/*.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/common/core/qbuffer.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/common/hw/src/cli.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/common/core/qbuffer.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/common/hw/src/cli.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_RECURSE at CMakeLists.txt:50 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/*.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/can.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/cdc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/eeprom.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/flash.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/gpio.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/i2c.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/led.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/log.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/reset.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/rtc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/spi.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/spi_flash.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/uart.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/usb/usb.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/usb/usb_cdc/usbd_cdc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/usb/usb_cdc/usbd_cdc_if.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/usb/usb_cdc/usbd_desc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/driver/usb/usbd_conf.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/hw/hw.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/button.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/can.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/cdc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/eeprom.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/flash.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/gpio.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/i2c.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/led.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/log.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/reset.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/rtc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/spi.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/spi_flash.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/swtimer.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/uart.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/usb/usb.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/usb/usb_cdc/usbd_cdc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/usb/usb_cdc/usbd_cdc_if.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/usb/usb_cdc/usbd_desc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/driver/usb/usbd_conf.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/hw/hw.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_RECURSE at CMakeLists.txt:50 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/*.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cordic.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fmac.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2s.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_irda.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_lptim.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nand.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nor.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_qspi.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sram.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart_ex.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_wwdg.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_comp.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_cordic.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crs.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dac.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dma.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_exti.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmac.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_gpio.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_hrtim.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_i2c.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lptim.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lpuart.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_opamp.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_pwr.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rcc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rng.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rtc.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_spi.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_tim.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_ucpd.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usart.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_utils.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_comp.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cordic.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_crc_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cryp_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dac_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fdcan.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_fmac.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_hrtim.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2c_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_i2s.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_irda.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_iwdg.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_lptim.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_msp_template.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nand.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_nor.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_opamp_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pcd_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_qspi.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rng.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rtc_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sai_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smartcard_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_smbus_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_sram.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_timebase_tim_template.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_usart_ex.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_wwdg.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_comp.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_cordic.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_crs.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dac.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_dma.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_exti.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmac.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_fmc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_gpio.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_hrtim.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_i2c.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lptim.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_lpuart.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_opamp.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_pwr.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rcc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rng.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_rtc.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_spi.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_tim.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_ucpd.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usart.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_usb.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_utils.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES_RECURSE at CMakeLists.txt:50 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32_USB_Device_Library/Core/Src/*.c")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32_USB_Device_Library/Core/Src/*.c")
 set(OLD_GLOB
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32_USB_Device_Library/Core/Src/usbd_core.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
-  "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/src/lib/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+  "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/src/lib/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/CMakeFiles/cmake.verify_globs")
 endif()

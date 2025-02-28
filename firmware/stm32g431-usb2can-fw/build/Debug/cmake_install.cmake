@@ -1,8 +1,8 @@
-# Install script for directory: D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw
+# Install script for directory: D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/stm32g431_sample_fw")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/stm32g431-usb2can-fw")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Github/Stm32-Template/stm32g/stm32g431_sample_fw/build/Debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Github/stm32-usb2can/firmware/stm32g431-usb2can-fw/build/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

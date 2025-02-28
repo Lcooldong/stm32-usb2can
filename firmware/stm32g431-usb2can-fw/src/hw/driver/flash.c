@@ -22,7 +22,7 @@ static void cliFlash(cli_args_t *args);
 bool flashInit(void)
 {
 
-  logPrintf("[OK] flashInit()\n");
+  logPrintf("[OK] flashInit()\r\n");
 
 #ifdef _USE_HW_CLI
   cliAdd("flash", cliFlash);
@@ -207,8 +207,9 @@ void cliFlash(cli_args_t *args)
   if (args->argc == 1 && args->isStr(0, "info"))
   {
     cliPrintf("flash addr  : 0x%X\n", 0x8000000);
+#ifdef _USE_HW_SPI_FLASH
     cliPrintf("spi   addr  : 0x%X\n", spiFlashGetAddr());
-    
+#endif
     ret = true;
   }
 
@@ -225,11 +226,11 @@ void cliFlash(cli_args_t *args)
 
       if (flash_ret == true)
       {
-        cliPrintf( "addr : 0x%X\t 0x%02X\n", addr+i, data);
+        cliPrintf( "addr : 0x%X\t 0x%02X\r\n", addr+i, data);
       }
       else
       {
-        cliPrintf( "addr : 0x%X\t Fail\n", addr+i);
+        cliPrintf( "addr : 0x%X\t Fail\r\n", addr+i);
       }
     }
 
@@ -244,14 +245,14 @@ void cliFlash(cli_args_t *args)
     pre_time = millis();
     flash_ret = flashErase(addr, length);
 
-    cliPrintf( "addr : 0x%X\t len : %d %d ms\n", addr, length, (millis()-pre_time));
+    cliPrintf( "addr : 0x%X\t len : %d %d ms\r\n", addr, length, (millis()-pre_time));
     if (flash_ret)
     {
-      cliPrintf("OK\n");
+      cliPrintf("OK\r\n");
     }
     else
     {
-      cliPrintf("FAIL\n");
+      cliPrintf("FAIL\r\n");
     }
 
     ret = true;
@@ -274,7 +275,7 @@ void cliFlash(cli_args_t *args)
     }
     else
     {
-      cliPrintf("FAIL\n");
+      cliPrintf("FAIL\r\n");
     }
 
     ret = true;
@@ -299,7 +300,7 @@ void cliFlash(cli_args_t *args)
         flash_ret = false;
         break;
       }
-      cliPrintf("%s\n", flash_ret ? "OK" : "Fail");
+      cliPrintf("%s\r\n", flash_ret ? "OK" : "Fail");
 
 
       flash_ret = true;
@@ -314,7 +315,7 @@ void cliFlash(cli_args_t *args)
           break;
         }
       }
-      cliPrintf("%s\n", flash_ret ? "OK" : "Fail");
+      cliPrintf("%s\r\n", flash_ret ? "OK" : "Fail");
 
       flash_ret = true;
       cliPrintf("flashRead() ..");
@@ -353,11 +354,11 @@ void cliFlash(cli_args_t *args)
 
   if (ret == false)
   {
-    cliPrintf( "flash info\n");
-    cliPrintf( "flash read  [addr] [length]\n");
-    cliPrintf( "flash erase [addr] [length]\n");
-    cliPrintf( "flash write [addr] [data]\n");
-    cliPrintf( "flash check [addr] [length]\n");
+    cliPrintf( "flash info\r\n");
+    cliPrintf( "flash read  [addr] [length]\r\n");
+    cliPrintf( "flash erase [addr] [length]\r\n");
+    cliPrintf( "flash write [addr] [data]\r\n");
+    cliPrintf( "flash check [addr] [length]\r\n");
   }
 }
 #endif

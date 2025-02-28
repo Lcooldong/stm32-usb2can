@@ -18,6 +18,8 @@ extern "C" {
 #include "can.h"
 #include "i2c.h"
 #include "log.h"
+#include "spi.h"
+#include "button.h"
 
 bool hwInit(void);
 

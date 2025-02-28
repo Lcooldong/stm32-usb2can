@@ -13,7 +13,7 @@ message("Build type: "              ${CMAKE_BUILD_TYPE})
 #
 # Core project settings
 #
-project(stm32g431_sample_fw VERSION 0.1.0)
+project(stm32g431-usb2can-fw VERSION 0.1.0)
 enable_language(C CXX ASM)
 
 #
