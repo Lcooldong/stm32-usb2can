@@ -20,7 +20,7 @@ namespace Gripper_V4
         public const ushort gripper_close_limit  = 2040;
         public const ushort gripper_open_limit   = 1200;
 
-        public const ushort pusher_push_limit    = 2100;
+        public const ushort pusher_push_limit    = 2000;    // 이전 2100
         public const ushort pusher_release_limit = 3800;
 
 
@@ -53,13 +53,14 @@ namespace Gripper_V4
         }
 
         // 2. 통신 명령어 상수 (아두이노 Enum과 일치)
-        public const byte CMD_STOP = 0x01;
-        public const byte CMD_MOVE = 0x02;
-        public const byte CMD_ARRIVED = 0x03;
-        public const byte CMD_GET_STATE = 0x10;
-        public const byte CMD_TORQUE_ON = 0x11;
+        public const byte CMD_STOP       = 0x01;
+        public const byte CMD_MOVE       = 0x02;
+        public const byte CMD_ARRIVED    = 0x03;
+        public const byte CMD_GET_STATE  = 0x10;
+        public const byte CMD_TORQUE_ON  = 0x11;
         public const byte CMD_TORQUE_OFF = 0x12;
-        public const byte CMD_HEARTBEAT = 0xFF;
+        public const byte CMD_ERROR      = 0xEE;
+        public const byte CMD_HEARTBEAT  = 0xFF;
 
         public const byte ID_GRIPPER = 1;
         public const byte ID_PUSHER = 2;
@@ -285,7 +286,9 @@ namespace Gripper_V4
                         case CMD_STOP:
                             OnMessageReceived?.Invoke("[STOP] Emergency Stop Ack");
                             break;
+                        case CMD_ERROR:
 
+                            break;
                         default:
                             // 정의되지 않은 CMD라도 원본 패킷은 보여줌
                             OnMessageReceived?.Invoke($"[UNKNOWN] {fullPacketLog}");
